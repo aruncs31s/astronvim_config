@@ -19,6 +19,7 @@ return {
  -- Set colorscheme to use
   colorscheme = "astrodark",
 
+  "ellisonleao/glow.nvim", cmd = "Glow", opts = {},
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
     virtual_text = true,
@@ -82,3 +83,4 @@ return {
     -- }
   end,
 }
+
