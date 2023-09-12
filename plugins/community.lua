@@ -7,5 +7,6 @@ return {
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
  {import = "astrocommunity.markdown-and-latex.markdown-preview-nvim"},
 {import = "astrocommunity.markdown-and-latex.glow-nvim"},
+ {import = "astrocommunity.pack.python"},
  
 }
