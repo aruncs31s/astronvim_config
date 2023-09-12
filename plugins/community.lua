@@ -8,5 +8,6 @@ return {
  {import = "astrocommunity.markdown-and-latex.markdown-preview-nvim"},
 {import = "astrocommunity.markdown-and-latex.glow-nvim"},
  {import = "astrocommunity.pack.python"},
+  {import = "astrocommunity.pack.html-css"},
  
 }
