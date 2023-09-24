@@ -9,5 +9,8 @@ return {
 {import = "astrocommunity.markdown-and-latex.glow-nvim"},
  {import = "astrocommunity.pack.python"},
   {import = "astrocommunity.pack.html-css"},
- 
+   -- {import = "astrocommunity.pack.cpp"},
+{ import = "astrocommunity.pack.rust" },
+   {import = "astrocommunity.pack.bash"},
+
 }

@@ -32,6 +32,6 @@ return {
         -- "python",
       })
     end,
-  },
+    },
 
 }
