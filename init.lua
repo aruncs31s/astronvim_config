@@ -16,10 +16,12 @@ return {
       --   ["remote3"] = "github_user", -- GitHub user assume AstroNvim fork
     },
   },
- -- Set colorscheme to use
+  -- Set colorscheme to use
   colorscheme = "astrodark",
 
-  "ellisonleao/glow.nvim", cmd = "Glow", opts = {},
+  "ellisonleao/glow.nvim",
+  cmd = "Glow",
+  opts = {},
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
     virtual_text = true,
@@ -81,6 +83,7 @@ return {
     --     ["~/%.config/foo/.*"] = "fooscript",
     --   },
     -- }
+
+    require("nvim-dap-projects").search_project_config()
   end,
 }
-
