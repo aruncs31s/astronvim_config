@@ -1,3 +1,4 @@
+local default = require "nvim-web-devicons.icons-default"
 return {
   "nvim-neorg/neorg",
   build = ":Neorg sync-parsers",
@@ -19,8 +20,10 @@ return {
           workspaces = {
             notes = "~/Notes/notes",
             btech = "~/Notes/btech",
-            bills = "~/Documents/bills",
+            tasks = "~/Notes/tasks",
+            coding = "~/Notes/Coding",
           },
+          default_workspace = "coding",
         },
       },
     },

@@ -17,6 +17,27 @@ return {
       function() require("astronvim.utils.buffer").nav(-(vim.v.count > 0 and vim.v.count or 1)) end,
       desc = "Previous buffer",
     },
+    -- Custom By aruncs31s --
+    ["<leader>rr"] = {
+      "<cmd>RustRun<cr>",
+      desc = "Run Rust",
+    },
+    ["<leader>nb"] = {
+      "<cmd>Neorg workspace btech<cr>",
+      desc = "Neorg Btech",
+    },
+    ["<leader>ni"] = {
+      "<cmd>Neorg index<cr>",
+      desc = "Neorg Index",
+    },
+    ["<leader>nr"] = {
+      "<cmd>Neorg return<cr>",
+      desc = "Neorg Return",
+    },
+    ["<leader>sv"] = {
+      "<cmd>saveas 66<cr>",
+      desc = "Neorg Return",
+    },
 
     -- mappings seen under group name "Buffer"
     ["<leader>bD"] = {
