@@ -22,18 +22,18 @@ return {
       "<cmd>RustRun<cr>",
       desc = "Run Rust",
     },
-    ["<leader>nb"] = {
-      "<cmd>Neorg workspace btech<cr>",
-      desc = "Neorg Btech",
-    },
-    ["<leader>ni"] = {
-      "<cmd>Neorg index<cr>",
-      desc = "Neorg Index",
-    },
-    ["<leader>nr"] = {
-      "<cmd>Neorg return<cr>",
-      desc = "Neorg Return",
-    },
+    -- ["<leader>nb"] = {
+    --   "<cmd>Neorg workspace btech<cr>",
+    --   desc = "Neorg Btech",
+    -- },
+    -- ["<leader>ni"] = {
+    --   "<cmd>Neorg index<cr>",
+    --   desc = "Neorg Index",
+    -- },
+    -- ["<leader>nr"] = {
+    --   "<cmd>Neorg return<cr>",
+    --   desc = "Neorg Return",
+    -- },
  ["<leader>mp"] = {
       "<cmd>MarkdownPreview<cr>",
       desc = "markdownPreview",
@@ -42,6 +42,10 @@ return {
       "<cmd>Glow<cr>",
       desc = "Glow",
     },
+-- ["<leader>ca"] = {
+--       "<cmd>Codeaction<cr>",
+--       desc = "Codeaction",
+--     },
     -- mappings seen under group name "Buffer"
     ["<leader>bD"] = {
       function()
