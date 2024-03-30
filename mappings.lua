@@ -34,11 +34,14 @@ return {
       "<cmd>Neorg return<cr>",
       desc = "Neorg Return",
     },
-    ["<leader>sv"] = {
-      "<cmd>saveas 66<cr>",
-      desc = "Neorg Return",
+ ["<leader>mp"] = {
+      "<cmd>MarkdownPreview<cr>",
+      desc = "markdownPreview",
     },
-
+["<leader>tg"] = {
+      "<cmd>Glow<cr>",
+      desc = "Glow",
+    },
     -- mappings seen under group name "Buffer"
     ["<leader>bD"] = {
       function()

@@ -17,7 +17,8 @@ return {
     },
   },
   -- Set colorscheme to use
-  colorscheme = "astrodark",
+  colorscheme = "catppuccin",
+  -- colorscheme = "astrodark",
 
   "ellisonleao/glow.nvim",
   cmd = "Glow",
